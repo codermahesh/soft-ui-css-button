@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: #e0e5ec;
+}
+main{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+main .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  overflow: hidden;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 2px 0px #ffffff80, inset -7px -7px 10px 0px #0000001a, 7px 7px 20px 0px #0000001a, 4px 4px 5px 0px #0000001a;
+  text-shadow: 2px 2px 3px #ffffff80, -4px -4px 6px #747d8833;
+  transition: all 0.3s ease-out;
+}
+main .button:hover{
+  width: 200px;
+}
+main .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;box-shadow: inherit;
+  box-shadow: inherit;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+main .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+main .button:hover .icon i{
+  color: #fff;
+}
+main .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+
+main .button:nth-child(1) .icon{
+  background: #4267B2;
+}
+main .button:nth-child(2) .icon{
+  background: #1DA1F2;
+}
+main .button:nth-child(3) .icon{
+  background: #E1306C;
+}
+main .button:nth-child(4) .icon{
+  background: #333;
+}
+main .button:nth-child(5) .icon{
+  background: #ff0000;
+}
+
+main .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+main .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+main .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+main .button:nth-child(4):hover .icon{
+  background: #333;
+}
+main .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+
+main .button:nth-child(1) span{
+  color: #4267B2;
+}
+main .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+main .button:nth-child(3) span{
+  color: #FB2175;
+}
+main .button:nth-child(4) span{
+  color: #333;
+}
+main .button:nth-child(5) span{
+  color: #ff0000;
+}
